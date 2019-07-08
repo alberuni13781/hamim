@@ -1,0 +1,681 @@
+/*--===--custom css start--===--*/
+
+h1.display-4 {
+    color: red;
+	font-size:40px;
+	text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+li.nav-item a {
+    font-size: 12px;
+}
+
+/*--=====--strat here works--======--*/
+#portfolio{
+	position:relative;
+	background:#ffffff;
+}
+.portfolio-manu:hover{
+	display:block;
+	color:red;
+}
+
+.about-top{
+	position:relative;
+}
+.about-top h3 span{
+	color:red;
+}
+.about-top h3::after{
+	position:absolute;
+	content:"";
+	width:90px;
+	height:2px;
+	bottom:88px;
+	left:50%;
+	margin-left:-45px;
+	background:red;
+}
+.about-top h3::before{
+	position:absolute;
+	content:"";
+	width:16px;
+	height:16px;
+	border-radius:50%;
+	bottom:81px;
+	left:50%;
+	margin-left:-8px;
+	background:red;
+}
+button {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 7px;
+    outline: none;
+    background: none;
+    border: 0;
+    margin-top: 18px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+.portfolio-item img{
+	border:10px solid #fff;
+	max-width:100%;	
+}
+.portfolio-item:hover .portfolio-item img{
+	border:10px solid #fff;
+	opacity:0;
+}
+.portfolio-item {
+    position: relative;
+    margin-top: 30px;
+    transition: .3s;
+}
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+}
+.portfolio-content {
+    position: relative;
+    margin-bottom: 100px;
+}
+.portfolio-item .portfolio-item-hover{
+	display:none;
+	overflow:hidden;
+}
+.portfolio-item:hover .portfolio-item-hover{
+	display:block;
+	
+}
+.portfolio-item-hover{
+	position:relative;
+	display:none;
+	 z-index:1;
+}
+
+element.style {
+}
+.portfolio-item-hover i {
+    position: absolute;
+    display: flex;
+    align-item: center !important;
+    justify-content: center;
+    top: 112px;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 50px;
+    line-height: 52px;
+    left: 103px;
+    color: red;
+    z-index: -1;
+    font-size: 34px;
+    transition: .3s;
+    display: none;
+}
+.portfolio-item:hover .portfolio-item-hover i{
+	display:block;
+	
+}
+.portfolio-item-hover {
+    position: absolute;
+    top:0;
+    left: 0;
+    display: flex;
+    align-item: center;
+    justify-content: center;
+    align-items: senter;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+	//display:none;
+	opacity:.55;
+	  transition: .3s;
+}
+
+.about-top h3 {
+    margin-top: 60px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.about-top p {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 45px;
+    margin-bottom: -2px;
+    color: #000;
+}
+.about-top {
+	position:relative:
+}
+.portfolio-item-hover h5{
+    margin-top:68%;
+    font-size: 20px;
+	color:#8ec448;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.portfolio-item-hover h6{
+    margin-top: 77%;
+    font-size: 20px;
+	color:red;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+button2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 2px solid #353535;
+    padding: 4px 19px;
+    margin-top: 36px;
+    display: inline-block;
+}
+
+.portfolio-item-hover p {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.portfolio-item-hover h5 {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+/*--===--end here works--===--*/
+
+/*--===--start here jumbotron--===--*/
+p.lead {
+    font-size: 35px;
+	color:blue;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+.jumbotron.text-center {
+    background: #f1eaeb;
+}
+a.nav-link {
+	color:#fff;
+    font-size: 20px;
+	text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+.jumbotron p {
+    font-size: 10px;
+	text-align:justify;
+	text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+a.btn.btn-primary.btn-lg {
+	font-size: 20px;
+    padding: 4px 23px;
+	text-transform: uppercase;
+}
+h5.card-title {
+    font-size:27px;
+	text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+p.card-text {
+	 font-size: 10px;
+	text-align:justify;
+	text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+small.text-muted {
+	 font-size: 10px;
+	text-align:justify;
+	text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+.card-header {
+	 font-size: 30px;
+	text-align:justify;
+	text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+h5.card-title {
+	  font-size:27px;
+	text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+a.btn.btn-primary {
+	font-size: 20px;
+    padding: 4px 23px;
+	text-transform: uppercase;
+}
+h5.card-title {
+	  font-size:27px;
+	text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+blockquote.blockquote.mb-0 p{
+	 font-size:15px;
+	text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+/*--===--end here jumbotron--===--*/
+
+/*--===--strat here accordion--===--*/
+
+.accordion {
+    padding: 50px 0;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.card-header {
+	background:#ebe84a;
+}
+button.btn.btn-link.collapsed {
+    color: red;
+    text-decoration: none;
+	text-align:center;
+}
+.btn-link:focus {
+    text-decoration: none;
+	}
+
+button.btn.btn-danger.dropdown-toggle {
+    margin-left: 192px;
+    padding: 3px 36px;
+}
+a.dropdown-item {
+    color: #f5e244;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.card-body {
+    font-size: 17px;
+    color: red;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 30px;
+}
+/*--===--end here accordion--===--*/
+
+/*--===--strat here from--===--*/
+
+textarea#exampleFormControlTextarea1 {
+	font-size: 17px;
+    color: red;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.form-control {
+	font-size: 17px;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+label.form-check-label {
+	font-size: 17px;
+    color:#000;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+button.btn.btn-primary {
+    padding: 3px 36px;
+}
+/*--===--end here from--===--*/
+
+/*--===--start here collapse--===--*/
+
+button.btn.btn-link.collapsed:after {
+	content:"\f2a3";
+	font-size:25px fontawesome;
+	float:right;
+}
+
+/*--===--end here collapse--===--*/
+
+/*--====--scroll-to-top--====--*/
+.scrollup i {
+	width:50px;
+	height:45px;
+    font-size: 30px;
+    color:red;
+    background: #000;
+    bottom:117px;
+	right:17px;
+	line-height:49px;
+    position: fixed;
+    text-align: center;
+    z-index: 1;
+}
+/*--====--scroll-to-top--====--*/
+
+/*--====--start here thumbnail--====--*/
+.thumbnail img {
+    width: 100%;
+}
+.caption h3{
+	font-size:30px;
+    color:#000;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.caption p {
+	font-size:10px;
+    color:#000;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+a.btn.btn-primary {
+    font-size: 20px;
+    padding: 4px 23px;
+    text-transform: uppercase;
+}
+
+
+/*--====--start here thumbnail--====--*/
+/*--=====--strat here team--====--*/
+.team {
+    padding: 10px 0;
+}
+.team-item {
+    position: relative;
+    margin-top: 55px;
+}
+.team-item img{
+	width:100%;
+}
+
+.team-item:hover .team-item-hover::after{
+	visibility:visible;
+	opacity:.44;
+}
+.team-item-hover{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	z-index:1;
+	
+}
+.team-item-hover::after{
+	content:"";
+	background:red;
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	opacity:.0;
+	z-index:-1;
+	visibility:hidden;
+	transition:.3s;
+}
+.team-hover-content {
+    position: absolute;
+    background: red;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    bottom: -61px;
+    transition: .3s;
+}
+.team-item:hover .team-hover-content{
+	   bottom:0;
+}
+.team-hover-content ul{
+	list-style:none;
+}
+ .team-name{
+	 text-transform:uppercase;
+	 text-align: center;
+}
+.team-hover-content ul li{
+	display:inline;
+}
+.team-hover-content ul li a{
+	color:#fff;
+	font-size:18px;
+	margin:0 -3px;
+}
+.team-hover-content h4 {
+    margin-top: 11px;
+    font-size: 20px;
+    margin-left: -5px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.team-hover-content ul li {
+    padding: 6px;
+}
+.about-top {
+    position: relative;
+    font-size: 30px;
+    text-transforn: uppercase;
+    font-weight: 300px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.about-top::after {
+    position: absolute;
+    content: "";
+    width: 70px;
+    height: 2px;
+    background: red;
+    top: 46px;
+    left: 50;
+    left: 50%;
+    margin-left: -35px;
+}
+.about-top::before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: red;
+    top: 38px;
+    left: 50;
+    left: 50%;
+    margin-left: -10px;
+    border-radius: 50px;
+}
+.team-hover-content ul {
+    padding: 9px;
+}
+/*--=====--end here team--=====--*/
+
+/*--======--start testimonial--======--*/
+.testimonial{
+	position:relative;
+    background: url(../images/images/clint.jpg)no-repeat;
+    background-size: cover;
+	background-position:center center;
+	z-index:1;
+}
+.testimonial::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background:red;
+    top: 0;
+    left: 0;
+    opacity: .52;
+    z-index: -1;
+    opacity:.55;
+}
+.owl-carousel-testimonial img{
+	border-radius:50%;
+	width:auto !important;
+	margin:0 auto;
+}
+.item-text h5{
+	margin-top:20px;
+	color:#fff;
+	font-size:35px;
+	text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+.item-text p {
+    line-height: 25px;
+    margin-top: 15px;
+   color:#fff;
+    font-size: 15px;
+    text-align: justify;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+/*--======--end testimonial--======--*/
+/*--======--start skill--======--*/
+/*.skillbar {
+  position: relative;
+  display: inline-block;
+  margin: 15px 0;
+  width: 100%;
+  background: #eee;
+  height: 35px;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.skillbar-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110px;
+  font-weight: bold;
+  font-size: 13px;
+  color: #ffffff;
+  background: #6adcfa;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 0 20px;
+  height: 35px;
+  line-height: 35px;
+}
+
+.skillbar-bar {
+  height: 35px;
+  width: 0px;
+  background: #6adcfa;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.skill-bar-percent {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-size: 11px;
+  height: 35px;
+  line-height: 35px;
+  color: #ffffff;
+  color: rgba(0, 0, 0, 0.4);
+}*/
+
+/*--======--end skill--======--*/
+
+
+/*--======--start custom skill--======--*/
+/*.skill {
+    padding: 155px 0;
+    background: #ebf4f4e6;
+}
+
+p.skillbar-bar {
+    margin-top: 5px;
+    height: 9px;
+    //color: red;
+    //background: #fff;
+}
+element {
+    background:#fff;
+}
+.skillbar {
+    background: #000;
+    height: 19px;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 0px 10px 22px 10px;
+    margin-bottom:34px;
+}
+.skillbar .skillbar-title{
+	border-radius:50px;
+	margin-bottom:100px;
+}
+.skill-bar .skillbar-title {
+    margin-bottom: 300px;
+    color: #000;
+    font-size:14px;
+    font-family: initial;
+    font-weight: 600;
+}
+.skill-bar-percent {
+    color: #fff;
+    margin-top: -6px;
+    font-size: 15px;
+}
+.skill-bar .skillbar-title {
+    top: -37px;
+    position: absolute;
+    //background: #fff;
+}
+.skill-top h1 {
+    margin-bottom: 100px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.skill-top h1::after {
+    position: absolute;
+    content: "";
+    width: 70px;
+    height: 2px;
+    background: red;
+    top: 46px;
+    left: 50;
+    left: 50%;
+    margin-left: -35px;
+}
+.skill-top h1::before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: red;
+    top: 38px;
+    left: 50;
+    left: 50%;
+    margin-left: -10px;
+    border-radius: 50px;
+}*/
+/*--======--end custom skill--======--*/
+
+
+	/*--===--custom css end--===--*/
